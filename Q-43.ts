@@ -12,7 +12,7 @@ function makeGreat(magicians: string[]): string[] {
     }
   }
   
-  const magicians: string[] = ["Harry Houdini", "David Blaine", "Penn Jillette", "Teller"];
+  const magician: string[] = ["Harry Houdini", "David Blaine", "Penn Jillette", "Teller"];
   const greatMagicians: string[] = makeGreat([...magicians]); // create a copy of the original array
   showMagicians(magicians); // original array is unchanged
   console.log("----");
